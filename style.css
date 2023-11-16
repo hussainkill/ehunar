@@ -6,7 +6,7 @@
 }
 
 .by{
-   width: 500px;
+   width: 35%;
    margin: auto;
   
 }
@@ -16,15 +16,12 @@
     background-color: rgb(255, 255, 255);
     border: 2px solid rgb(241, 236, 236);
     box-shadow: 1px 1px 1px 1px #b4b0b0;
-
-
 }
 .ehunr-img img{
     width: 140px;
     height: 50px;
- margin-left: 150px;
- margin-top: 14px;
-
+    margin-left: 150px;
+    margin-top: 14px;
 }
 .ehunr-img h4{
     text-align: center;
@@ -39,9 +36,9 @@
 }
 .wapper .input-box{
     position: relative;
-width: 95%;
-height: 50px;
-margin: 50px 11px 0;
+    width: 95%;
+    height: 50px;
+    margin: 50px 11px 0;
 }
 .input-box label{
     
@@ -88,12 +85,12 @@ margin: 50px 11px 0;
     margin-left: 10px;
 }
 .register-link p a{
-color: #444141;
+    color: #444141;
 }
 .wapper .btn button{
     width: 180px;
     height: 37px;
-    margin: 30px 150px 0 ;
+    margin: 3% 33% ;
     background-color: #01411C;
     border-radius: 50px;
     color: #fff;
@@ -103,15 +100,14 @@ color: #444141;
     cursor: pointer;
 }
 .wapper .btn button:hover{
-   background-color: #E89001; 
-   transition: all 0.20s ease-in;
-            transition-delay: 0.15s;
+    background-color: #E89001; 
+    transition: all 0.20s ease-in;
+    transition-delay: 0.15s;
 }
 .back a{
-font-size: medium;
-color: #444141;
-text-decoration: none;
-
+    font-size: medium;
+    color: #444141;
+    text-decoration: none;
 }
 .back a:hover{
     color: rgb(66, 66, 197);
