@@ -8,12 +8,29 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300&family=Bree+Serif&family=Nanum+Myeongjo&family=Noto+Nastaliq+Urdu&family=Playpen+Sans:wght@300&display=swap" rel="stylesheet">
+        <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     </head>
     <body>
-        <div style="height: 10%;  width: 100%; background-color: red;"></div>
+         <div class="navbar">
+          <img src="img/ehunr.png" alt="">
+         <span> <a href="#"><i class='bx bxl-twitter'></i></a>
+         <a href="https://web.facebook.com/ehunar.org"> <i class='bx bxl-facebook-circle'></i></a>
+         <a href="#"> <i class='bx bxl-linkedin'></i></a>
+        </span>
+        <i class='bx bx-phone-call' ></i>
+         <i class='bx bxx-phone-call'>
+            <b>call us</b>
+             <br>042-36282865 <b>|</b> 042-26246279
+            </i>
+            <i class='bx bx-envelope'></i>
+           <div class="email">
+                <b>Email us</b><br>
+                <p>ehunr@gmail.com</p>
+            </div>
+        </div>
         <div class="by" style="height: 80%;">
             <div class="wapper">
-                <form action="">
+                <form action="add1">
                     <h3>Student LMS Login</h3>
                     <div class="ehunr-img">
                         <img src="img/ehunr.png" alt="" />
@@ -25,13 +42,13 @@
                     <div class="input-box">
                         <label for="password">Email</label>
                         <br>
-                        <input type="text"placeholder="enter email address" />
+                        <input type="text"placeholder="enter email address" required name="email"/>
                         <i class='bx bx-user'></i>
                     </div>
                     <div class="input-box">
                         <label for="Password">password</label>
                         <br>
-                        <input type="password" placeholder="enter password" />
+                        <input type="password" placeholder="enter password" required name="password"/>
                         <i class='bx bxs-lock-alt'></i>
                     </div>
                     <div class="remember-forgot">
@@ -49,6 +66,6 @@
                 </form>
             </div>
         </div>
-        <div style="height: 10%;  width: 100%; background-color: red;"></div>
+      <div class="end"><h3>ehunar - Hunarmand Kamyab Jawan Program</h3></div>
     </body>
 </html>

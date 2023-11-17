@@ -4,16 +4,71 @@
     box-sizing: border-box;
     font-family: 'Bai Jamjuree', sans-serif;
 }
+.navbar{
+    height: 10%;  
+    width: 100%; 
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(233, 225, 225);
+}
+.navbar img{
+    width: 113px!important;
+    height: 39px;
+    margin-bottom: 5px!important;
+    margin-top: 8px!important;
+    margin-left: 150px;
+}
+.navbar span i{
+ position: relative;
+ left: 362px;
+ top: -10px;
+ font-size: 16px;
+ background-color: #01411C;
+ color: #fff;
+ padding: 7px;
+ border-radius: 100%;
+ margin: 3px;
+}
+.bx-phone-call{
+    float: right;
+    position: relative;
+    right: 560px;
+    top: 17px;
+    font-size: 23px;
+}
+ .bxx-phone-call{
+    position: relative;
+    display: block;
+    color: #01411C;
+    left: 420px;
+   bottom: 6px;
+    font-size: 16px;
+    padding-right: 35px;
+    border-right: 1px solid rgb(204, 195, 195);
+}
+.email{
+   float: right;
+   margin-right: 60px;
+   margin-top: 10px;
+}
+.bx-envelope{
+    float: right;
+    position: relative;
+    right: 225px;
+    top: 17px;
+    font-size: 23px;
+}
+
 
 .by{
-   width: 35%;
+   width: 37%;
    margin: auto;
+   margin-top: 50px;
   
 }
 
 .wapper{
     width: 100%;
-    height: 80%;
+    height: 110%;
     background-color: rgb(255, 255, 255);
     border: 2px solid rgb(241, 236, 236);
     box-shadow: 1px 1px 1px 1px #b4b0b0;
@@ -125,3 +180,21 @@
 .back a:hover{
     color: rgb(66, 66, 197);
 }
+.end{
+    background-color: #002603;
+    border-radius: 2px;
+    margin-top: 120px;
+}
+.end h3{
+    color: #fff;
+    text-align: center!important;
+    padding: 14px;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 13px;
+  }
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #002603; 
+  }
