@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300&family=Bree+Serif&family=Nanum+Myeongjo&family=Noto+Nastaliq+Urdu&family=Playpen+Sans:wght@300&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/jquery.inputmask.bundle.js"></script>
+
+</head>
+<body>
+     <div class="navbar">
+      <img src="img/ehunr.png" alt="">
+     <span> <a href="#"><i class='bx bxl-twitter'></i></a>
+     <a href="https://web.facebook.com/ehunar.org"> <i class='bx bxl-facebook-circle'></i></a>
+     <a href="#"> <i class='bx bxl-linkedin'></i></a>
+    </span>
+    <i class='bx bx-phone-call' ></i>
+     <i class='bx bxx-phone-call'>
+        <b>call us</b>
+         <br>042-36282865 <b>|</b> 042-26246279
+        </i>
+        <i class='bx bx-envelope'></i>
+       <div class="email">
+            <b>Email us</b><br>
+            <p>ehunr@gmail.com</p>
+        </div>
+        </div>
+        <nav id="navbar">
+            <ul>
+               <a href="#"><li>Home</li></a>
+              
+               <div class="dropdown">
+                <a href="#" class="dropbtn"><li>COURSES</li></a>
+                <div class="dropdown-content">
+                  <a href="#">3 month certification course</a>
+                  <a href="#">6 month certification course</a>
+                </div>
+              </div>
+               <a href="#"><li>HOW TO APPLY?</li></a>
+               <a href="#"><li>ABOUT US</li></a>
+               <a href="#"><li>INFORMATION</li></a>
+               <a href="#"><li>SCHOLARSHIP</li></a>
+               <a href="#"><li>START EARNING</li></a>
+            </ul>
+            <div class="btn2">
+            <button type="submit">LOGIN LMS</button>
+            <button type="submit">APPLY NOW</button>
+            </div>
+        </nav>
+        <div class="dropdown">
+        
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
+    <div class="container">
+    <h2>Student Sign Up</h2>
+    <img src="img/ehunr.png" alt="no">
+    <h3>Hunarmand Kamyab Jawan Program
+       <br> (eHunar)
+        </h3>
+        <form action="" method="post">
+        <div class="first-name">
+        <label for="name"><b>First Name</b></label><br>
+        <input type="text" placeholder="enter first name" required name="firstname">
+        </div>
+        <br>
+        <div class="last-name">
+        <label for="name"><b>Last Name</b></label><br>
+        <input type="text" placeholder="enter last name"required name="lastname">
+        </div>
+        <br>
+        <div class="cnic">
+            <label for="CNIC"><b>CNIC</b><span style="color: red;">(Enter valid CNIC or B-Form number without dashes, we verify it)</span></label>
+            <input type="text" data-inputmask="'mask': '99999-9999999-9'"  placeholder="XXXXX-XXXXXXX-X"  name="cnic" required="" >
+        </div>
+        <br>
+        <div class="mobile">
+            <label for="mobile"><b>Mobile#</b><span style="color: red;">(Enter valid 11 digits Mobile # in the format: 03001234567)</span></label>
+            <input type="text"  data-inputmask="'mask': '0399-99999999'" required=""  type = "number" maxlength = "12" ></td>
+        </tr>
+        </div>
+        <div class="gmail">
+            <label for="gmail"><b>Email</b></label><br>
+            <input type="text" placeholder="e.g.xyz@gmail.com" name="gmail">
+        </div>
+        <br>
+        <div class="password">
+            <label for="password"><b>Password</b></label>
+            <input type="text" placeholder="enter password" name="password">
+        </div>
+        <br>
+        <div class="ConfirmPassword">
+            <label for="Confirm Password"><b>Confirm Password</b></span></label>
+            <input type="text" placeholder="please retype password" name="Confirm Password">
+        </div>
+        <br>
+        <div class="remember-forgot">
+            <a href="#">Admission Procedure?</a>
+        </div>
+        <div class="register-link">
+            <p>Already a member? <a href="index.html">Sign in </a></p>
+        </div>
+        <div class="paragarf">
+            <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; By Clicking 'Sign Up' button, I confirm that all the information provided <br>&nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;is valid, truthful and belongs to me and eHunar reserve the right to take <br> &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;necessary action for incorrect or misleading information</p>
+        </div>
+        <br>
+        <div class="btn"> 
+            <button type="submit">Sign up</button>
+        </div>
+        </form>
+        </div>
+        <div class="end"><h3>ehunar - Hunarmand Kamyab Jawan Program</h3></div>
+
+        <script language="Javascript">
+            function abc()
+            {
+                var error="";
+                if(document.add.name.value=="")
+                error = "please insert name";
+                if(document.add.Email.value=="")
+                error +="please insert email";
+                if (error=="")
+                {
+                    return true;
+                }else
+                {
+                    alert(error);
+                    return false;
+                }
+            }
+    
+        </script>
+        <script>
+            $(":input").inputmask();
+        
+           </script>
+         <script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+</body>
+</html>
