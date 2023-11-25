@@ -81,6 +81,9 @@ nav ul a{
 nav ul a:hover{
 color: #60D095;
 }
+.dropbtn{
+  
+}
 .dropdown-content {
     display: none;
     position: absolute;
@@ -89,22 +92,21 @@ color: #60D095;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     border-radius: 10px;
-    top: 200px;
   }
   .dropdown-content a {
-    color: rgb(255, 255, 255)53, 253, 253);
     padding: 25px;
     text-decoration: none;
     display: block;
-    color:white;
+    color:rgb(255, 255, 255);
     border-bottom:2px solid white;
-    border
+    border-radius: 10px;
   }
-  .dropdown-content a:hover {background-color: #ddd;}
+  .dropdown-content a:hover {background-color: #002603;}
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown:hover .dropbtn {background-color: #4ba04e;}
+
 .btn2 button{
     background-color: #002603;
     float: right;
@@ -289,4 +291,75 @@ margin-top: 50px;
   /* Handle */
   ::-webkit-scrollbar-thumb {
     background: #002603; 
+  }
+  .apply img{
+   width: 100%;
+   height: 330px;
+  }
+  .apply h2{
+    position: relative;
+    top: -230px;
+    color: white;
+    left: 130px;
+    font-size: 2.5rem;
+    width: 80%
+  }
+  #line{
+    position: relative;
+    top: -130px;
+  }
+  .apply p{
+    position: relative;
+    top: -100px;
+    left: 70px;
+    width: 70%;
+    color: white;
+  }
+  .apply a{
+    color: white;
+    text-decoration: none;
+  }
+  .frame iframe{
+    width: 70%;
+    height: 400px;
+    margin-left: 200px;
+  }
+  .goto-apply img{
+    width: 100%;
+  }
+  .text2 h1{
+    color: #002603;
+    position: relative;
+    top: -50px;
+    left: 350px;
+    font-size: 2.2rem;
+    width: 60%;
+  }
+  .text2 h3{
+    color: #002603;
+    margin-left: 100px;
+  }
+  .text2 p{
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+  }
+  .container-3monthes{
+    
+  }
+  .imgbackground1{
+    width: 20%;
+    height: 300px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 8px 8px rgb(241, 239, 239);
+  }
+  .imgbackground1 img{
+  width:100%;
+  height: 150px;
+  }
+  .btnimg{
+    position: relative;
+    left: 150px;
+    top: 40px;
   }
